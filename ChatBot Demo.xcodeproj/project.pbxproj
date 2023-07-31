@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35F11332A75DE7D009FD1EE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F11322A75DE7D009FD1EE /* ChatView.swift */; };
+		C35F11342A75DE7D009FD1EE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F11322A75DE7D009FD1EE /* ChatView.swift */; };
 		C387A9102A60ED44002E44E7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A90F2A60ED44002E44E7 /* Tests_iOS.swift */; };
 		C387A9122A60ED44002E44E7 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A9112A60ED44002E44E7 /* Tests_iOSLaunchTests.swift */; };
 		C387A91C2A60ED44002E44E7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A91B2A60ED44002E44E7 /* Tests_macOS.swift */; };
@@ -21,6 +23,24 @@
 		C387A9262A60ED44002E44E7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A8F82A60ED41002E44E7 /* Persistence.swift */; };
 		C387A9272A60ED44002E44E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C387A8F92A60ED44002E44E7 /* Assets.xcassets */; };
 		C387A9282A60ED44002E44E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C387A8F92A60ED44002E44E7 /* Assets.xcassets */; };
+		C387A9382A60F154002E44E7 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A9372A60F154002E44E7 /* BotResponse.swift */; };
+		C387A9392A60F154002E44E7 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A9372A60F154002E44E7 /* BotResponse.swift */; };
+		C3CB64502A6C4B7D006C03CD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C3CB644F2A6C4B7D006C03CD /* FirebaseAuth */; };
+		C3CB646F2A6CA837006C03CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB646E2A6CA837006C03CD /* LoginView.swift */; };
+		C3CB64702A6CA837006C03CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB646E2A6CA837006C03CD /* LoginView.swift */; };
+		C3CB64722A6CAC8B006C03CD /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB64712A6CAC8B006C03CD /* InputView.swift */; };
+		C3CB64732A6CAC8B006C03CD /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB64712A6CAC8B006C03CD /* InputView.swift */; };
+		C3CB64752A6CD516006C03CD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB64742A6CD516006C03CD /* RegistrationView.swift */; };
+		C3CB64762A6CD516006C03CD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB64742A6CD516006C03CD /* RegistrationView.swift */; };
+		C3CB64782A6E2CFB006C03CD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB64772A6E2CFA006C03CD /* ProfileView.swift */; };
+		C3CB64792A6E2CFB006C03CD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB64772A6E2CFA006C03CD /* ProfileView.swift */; };
+		C3CB647C2A6E2F70006C03CD /* SettingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB647B2A6E2F70006C03CD /* SettingRowView.swift */; };
+		C3CB647D2A6E2F70006C03CD /* SettingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB647B2A6E2F70006C03CD /* SettingRowView.swift */; };
+		C3CD10712A75869B00545F00 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD10702A75869B00545F00 /* User.swift */; };
+		C3CD10732A758B4000545F00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CD10722A758B4000545F00 /* GoogleService-Info.plist */; };
+		C3CD10772A758C4B00545F00 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CD10762A758C4B00545F00 /* AuthViewModel.swift */; };
+		C3CD107A2A75977D00545F00 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3CD10792A75977D00545F00 /* FirebaseFirestoreSwift */; };
+		C3CD107C2A759DE100545F00 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C3CD107B2A759DE100545F00 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +61,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C35F11322A75DE7D009FD1EE /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		C387A8F52A60ED41002E44E7 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		C387A8F62A60ED41002E44E7 /* ChatBot_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot_DemoApp.swift; sourceTree = "<group>"; };
 		C387A8F72A60ED41002E44E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C387A8F82A60ED41002E44E7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C387A8F92A60ED44002E44E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C387A8FE2A60ED44002E44E7 /* ChatBot Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatBot Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C387A8FE2A60ED44002E44E7 /* conTigo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "conTigo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C387A9042A60ED44002E44E7 /* ChatBot Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatBot Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C387A9062A60ED44002E44E7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		C387A90B2A60ED44002E44E7 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C387A90F2A60ED44002E44E7 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		C387A9112A60ED44002E44E7 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		C387A9172A60ED44002E44E7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C387A91B2A60ED44002E44E7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C387A91D2A60ED44002E44E7 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C387A9372A60F154002E44E7 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+		C3CB645A2A6C4FFE006C03CD /* ChatBot Demo (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ChatBot Demo (iOS).entitlements"; sourceTree = "<group>"; };
+		C3CB646E2A6CA837006C03CD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C3CB64712A6CAC8B006C03CD /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		C3CB64742A6CD516006C03CD /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C3CB64772A6E2CFA006C03CD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C3CB647B2A6E2F70006C03CD /* SettingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRowView.swift; sourceTree = "<group>"; };
+		C3CD10702A75869B00545F00 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C3CD10722A758B4000545F00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3CD10762A758C4B00545F00 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +92,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CB64502A6C4B7D006C03CD /* FirebaseAuth in Frameworks */,
+				C3CD107A2A75977D00545F00 /* FirebaseFirestoreSwift in Frameworks */,
+				C3CD107C2A759DE100545F00 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,22 +125,27 @@
 		C387A8EE2A60ED40002E44E7 = {
 			isa = PBXGroup;
 			children = (
+				C3CB645A2A6C4FFE006C03CD /* ChatBot Demo (iOS).entitlements */,
 				C387A8F32A60ED41002E44E7 /* Shared */,
-				C387A9052A60ED44002E44E7 /* macOS */,
+				C3CD10722A758B4000545F00 /* GoogleService-Info.plist */,
 				C387A90E2A60ED44002E44E7 /* Tests iOS */,
 				C387A91A2A60ED44002E44E7 /* Tests macOS */,
 				C387A8FF2A60ED44002E44E7 /* Products */,
+				C3CD10782A75977D00545F00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C387A8F32A60ED41002E44E7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C387A8F62A60ED41002E44E7 /* ChatBot_DemoApp.swift */,
-				C387A8F72A60ED41002E44E7 /* ContentView.swift */,
+				C3CB646A2A6CA5EC006C03CD /* App */,
+				C3CB64692A6CA5E0006C03CD /* Components */,
+				C3CB64682A6CA5A6006C03CD /* Core */,
+				C3CB64672A6CA591006C03CD /* Model */,
 				C387A8F82A60ED41002E44E7 /* Persistence.swift */,
 				C387A8F92A60ED44002E44E7 /* Assets.xcassets */,
 				C387A8F42A60ED41002E44E7 /* ChatBot_Demo.xcdatamodeld */,
+				C387A9372A60F154002E44E7 /* BotResponse.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -115,20 +153,12 @@
 		C387A8FF2A60ED44002E44E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C387A8FE2A60ED44002E44E7 /* ChatBot Demo.app */,
+				C387A8FE2A60ED44002E44E7 /* conTigo App.app */,
 				C387A9042A60ED44002E44E7 /* ChatBot Demo.app */,
 				C387A90B2A60ED44002E44E7 /* Tests iOS.xctest */,
 				C387A9172A60ED44002E44E7 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C387A9052A60ED44002E44E7 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				C387A9062A60ED44002E44E7 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		C387A90E2A60ED44002E44E7 /* Tests iOS */ = {
@@ -149,6 +179,91 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		C3CB64672A6CA591006C03CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3CD10702A75869B00545F00 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3CB64682A6CA5A6006C03CD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB646C2A6CA77E006C03CD /* Authentication */,
+				C3CB646D2A6CA792006C03CD /* Profile */,
+				C3CB646B2A6CA73C006C03CD /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C3CB64692A6CA5E0006C03CD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB64712A6CAC8B006C03CD /* InputView.swift */,
+				C3CB647B2A6E2F70006C03CD /* SettingRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C3CB646A2A6CA5EC006C03CD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C387A8F62A60ED41002E44E7 /* ChatBot_DemoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C3CB646B2A6CA73C006C03CD /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C387A8F72A60ED41002E44E7 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C3CB646C2A6CA77E006C03CD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C3CD10752A758C1100545F00 /* AuthViewModel */,
+				C3CD10742A758BDE00545F00 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C3CB646D2A6CA792006C03CD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB64772A6E2CFA006C03CD /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C3CD10742A758BDE00545F00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB646E2A6CA837006C03CD /* LoginView.swift */,
+				C3CB64742A6CD516006C03CD /* RegistrationView.swift */,
+				C35F11322A75DE7D009FD1EE /* ChatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3CD10752A758C1100545F00 /* AuthViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3CD10762A758C4B00545F00 /* AuthViewModel.swift */,
+			);
+			path = AuthViewModel;
+			sourceTree = "<group>";
+		};
+		C3CD10782A75977D00545F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,8 +280,13 @@
 			dependencies = (
 			);
 			name = "ChatBot Demo (iOS)";
+			packageProductDependencies = (
+				C3CB644F2A6C4B7D006C03CD /* FirebaseAuth */,
+				C3CD10792A75977D00545F00 /* FirebaseFirestoreSwift */,
+				C3CD107B2A759DE100545F00 /* FirebaseFirestore */,
+			);
 			productName = "ChatBot Demo (iOS)";
-			productReference = C387A8FE2A60ED44002E44E7 /* ChatBot Demo.app */;
+			productReference = C387A8FE2A60ED44002E44E7 /* conTigo App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C387A9032A60ED44002E44E7 /* ChatBot Demo (macOS) */ = {
@@ -257,6 +377,10 @@
 				Base,
 			);
 			mainGroup = C387A8EE2A60ED40002E44E7;
+			packageReferences = (
+				C3CB644E2A6C4B7D006C03CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C3CB64512A6C4DF6006C03CD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = C387A8FF2A60ED44002E44E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C387A9272A60ED44002E44E7 /* Assets.xcassets in Resources */,
+				C3CD10732A758B4000545F00 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +432,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CB646F2A6CA837006C03CD /* LoginView.swift in Sources */,
+				C3CB64782A6E2CFB006C03CD /* ProfileView.swift in Sources */,
+				C3CB64722A6CAC8B006C03CD /* InputView.swift in Sources */,
+				C387A9382A60F154002E44E7 /* BotResponse.swift in Sources */,
+				C3CB647C2A6E2F70006C03CD /* SettingRowView.swift in Sources */,
 				C387A9212A60ED44002E44E7 /* ChatBot_DemoApp.swift in Sources */,
+				C35F11332A75DE7D009FD1EE /* ChatView.swift in Sources */,
 				C387A9252A60ED44002E44E7 /* Persistence.swift in Sources */,
 				C387A91F2A60ED44002E44E7 /* ChatBot_Demo.xcdatamodeld in Sources */,
+				C3CD10772A758C4B00545F00 /* AuthViewModel.swift in Sources */,
 				C387A9232A60ED44002E44E7 /* ContentView.swift in Sources */,
+				C3CB64752A6CD516006C03CD /* RegistrationView.swift in Sources */,
+				C3CD10712A75869B00545F00 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +452,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CB64702A6CA837006C03CD /* LoginView.swift in Sources */,
+				C3CB64792A6E2CFB006C03CD /* ProfileView.swift in Sources */,
+				C3CB64732A6CAC8B006C03CD /* InputView.swift in Sources */,
+				C387A9392A60F154002E44E7 /* BotResponse.swift in Sources */,
+				C35F11342A75DE7D009FD1EE /* ChatView.swift in Sources */,
+				C3CB647D2A6E2F70006C03CD /* SettingRowView.swift in Sources */,
 				C387A9222A60ED44002E44E7 /* ChatBot_DemoApp.swift in Sources */,
 				C387A9262A60ED44002E44E7 /* Persistence.swift in Sources */,
 				C387A9202A60ED44002E44E7 /* ChatBot_Demo.xcdatamodeld in Sources */,
 				C387A9242A60ED44002E44E7 /* ContentView.swift in Sources */,
+				C3CB64762A6CD516006C03CD /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,10 +616,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ChatBot Demo (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF6RUSAGZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChatBot-Demo--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,8 +634,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "daniel.alarcons.ChatBot-Demo";
-				PRODUCT_NAME = "ChatBot Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.alarcons.conTigoApp;
+				PRODUCT_NAME = "conTigo App";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -504,10 +648,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ChatBot Demo (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HF6RUSAGZ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChatBot-Demo--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,8 +666,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "daniel.alarcons.ChatBot-Demo";
-				PRODUCT_NAME = "ChatBot Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = daniel.alarcons.conTigoApp;
+				PRODUCT_NAME = "conTigo App";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -705,6 +852,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3CB644E2A6C4B7D006C03CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		C3CB64512A6C4DF6006C03CD /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3CB644F2A6C4B7D006C03CD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3CB644E2A6C4B7D006C03CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C3CD10792A75977D00545F00 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3CB644E2A6C4B7D006C03CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C3CD107B2A759DE100545F00 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3CB644E2A6C4B7D006C03CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C387A8F42A60ED41002E44E7 /* ChatBot_Demo.xcdatamodeld */ = {
