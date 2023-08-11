@@ -20,3 +20,5 @@ func getBotResponse (message: String) -> String {
         return "Eso suena bastante interesante... ¿Quisieras compartir más detalles conmigo?"
     }
 }
+
+// codigo Carlos. Primo aqui le dejo un codigo para que lo revise. 10 de agosto 2023.
