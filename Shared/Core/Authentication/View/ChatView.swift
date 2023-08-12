@@ -16,23 +16,50 @@ struct ChatView: View {
     
     var body: some View {
         VStack{
+            HStack{
+                Text("conTigo")
+                    .font(.largeTitle)
+                    .bold()
+                
+                Image(systemName: "bubble.left.fill")
+                    .font(.system(size: 26))
+                    .foregroundColor(Color.blue)
+            }
             ScrollView {
                 ForEach(viewModel.messages.filter({$0.role != .system}),
                         id: \.id) {message in
                     messageView(message: message)
+                    /*HStack {
+                        Spacer()
+                        Text(message)
+                            .padding()
+                            .foregroundColor(.white)
+                            .backgroundStyle(.blue.opacity(0.8))
+                            .cornerRadius(25)
+                            .padding(.horizontal, 16)
+                            .padding(.bottom, 10)
+                    }*/
                 }
             }
             HStack {
                 TextField("Enter a message...", text: $viewModel.currentInput)
+                    .padding()
+                    .background(Color.gray.opacity(0.1))
+                    .cornerRadius(10)
                 Button {
                     viewModel.sendMessage()
                 } label: {
-                    Text("Send")
+                    Image(systemName: "paperplane.fill")
                 }
+                .font(.system(size: 26))
+                .padding(.horizontal,10)
             }
-        }
+        
         .padding()
     }
+        }
+        
+            
     
     func messageView(message: Message) -> some View{
         HStack {
