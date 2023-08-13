@@ -13,7 +13,8 @@ struct ChatView: View {
     //@Environment(\.dismiss) var dismiss
     @EnvironmentObject var viewModelA: AuthViewModel
     @ObservedObject var viewModel = ChatViewModel()
-    
+    @State private var authChat = true
+ 
     var body: some View {
         VStack{
             HStack{
@@ -24,6 +25,8 @@ struct ChatView: View {
                 Image(systemName: "bubble.left.fill")
                     .font(.system(size: 26))
                     .foregroundColor(Color.blue)
+                    
+                
             }
             ScrollView {
                 ForEach(viewModel.messages.filter({$0.role != .system}),
@@ -56,6 +59,12 @@ struct ChatView: View {
             }
         
         .padding()
+        .alert("conTigo no reemplaza la ayuda de un profesional", isPresented: $authChat){
+            Button("Continuar") { }
+        } message: {
+            Text("Siéntete libre de expresar tus ideas, conTigo intentará la manera más amigable de asesorarte.")
+        }
+        
     }
         }
         

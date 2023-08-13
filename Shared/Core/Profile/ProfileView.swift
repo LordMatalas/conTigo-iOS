@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     @EnvironmentObject var viewModel: AuthViewModel
-    // @EnvironmentObject var chatModel: ChatView
+    //@EnvironmentObject var chatModel: ChatView
     var body: some View {
         if let user = viewModel.currentUser {
             List {
