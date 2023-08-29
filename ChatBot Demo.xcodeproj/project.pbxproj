@@ -16,6 +16,8 @@
 		99255BF12A85B32000CF0FF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99255BEF2A85B32000CF0FF2 /* Constants.swift */; };
 		99255BF32A85B5EC00CF0FF2 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99255BF22A85B5EC00CF0FF2 /* ChatViewModel.swift */; };
 		99255BF42A85B5EC00CF0FF2 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99255BF22A85B5EC00CF0FF2 /* ChatViewModel.swift */; };
+		993E6B972A88988300B612C9 /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E6B962A88988300B612C9 /* Prueba.swift */; };
+		993E6B982A88988300B612C9 /* Prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E6B962A88988300B612C9 /* Prueba.swift */; };
 		C35F11332A75DE7D009FD1EE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F11322A75DE7D009FD1EE /* ChatView.swift */; };
 		C35F11342A75DE7D009FD1EE /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F11322A75DE7D009FD1EE /* ChatView.swift */; };
 		C387A9102A60ED44002E44E7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387A90F2A60ED44002E44E7 /* Tests_iOS.swift */; };
@@ -74,6 +76,7 @@
 		99255BE72A85AF1B00CF0FF2 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		99255BEF2A85B32000CF0FF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		99255BF22A85B5EC00CF0FF2 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		993E6B962A88988300B612C9 /* Prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba.swift; sourceTree = "<group>"; };
 		C35F11322A75DE7D009FD1EE /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		C387A8F52A60ED41002E44E7 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		C387A8F62A60ED41002E44E7 /* ChatBot_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot_DemoApp.swift; sourceTree = "<group>"; };
@@ -169,6 +172,7 @@
 				C387A8F42A60ED41002E44E7 /* ChatBot_Demo.xcdatamodeld */,
 				C387A9372A60F154002E44E7 /* BotResponse.swift */,
 				99255BE32A85A6DD00CF0FF2 /* sandbox.swift */,
+				993E6B962A88988300B612C9 /* Prueba.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -460,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993E6B972A88988300B612C9 /* Prueba.swift in Sources */,
 				C3CB646F2A6CA837006C03CD /* LoginView.swift in Sources */,
 				C3CB64782A6E2CFB006C03CD /* ProfileView.swift in Sources */,
 				99255BE82A85AF1B00CF0FF2 /* OpenAIService.swift in Sources */,
@@ -490,6 +495,7 @@
 				C3CB64732A6CAC8B006C03CD /* InputView.swift in Sources */,
 				99255BE52A85A6DD00CF0FF2 /* sandbox.swift in Sources */,
 				C387A9392A60F154002E44E7 /* BotResponse.swift in Sources */,
+				993E6B982A88988300B612C9 /* Prueba.swift in Sources */,
 				C35F11342A75DE7D009FD1EE /* ChatView.swift in Sources */,
 				C3CB647D2A6E2F70006C03CD /* SettingRowView.swift in Sources */,
 				C387A9222A60ED44002E44E7 /* ChatBot_DemoApp.swift in Sources */,
